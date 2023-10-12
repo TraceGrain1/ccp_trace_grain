@@ -1,5 +1,31 @@
 /* Common Class Project CSS */
 /* ========================================================================== */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+
 nav ul {
-    display: inline;
+    background-color: #1264F4;
+    border: 2px solid #000000;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
