@@ -29,6 +29,7 @@ h1 {
     font-size: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 /* Style your h2 here */
@@ -39,4 +40,21 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     max-height: 250px;
+}
+
+/* style your dog tables here */
+#dog_stats {
+    border: 2px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dog_stats tr {
+    border: 2px solid #000000;
+
+}
+
+#dog_stats th {
+    border: 2px solid #000000;
+    width: 10%;
 }
