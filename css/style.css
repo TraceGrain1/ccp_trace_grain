@@ -1,5 +1,9 @@
 /* Common Class Project CSS */
 /* ========================================================================== */
+
+/* set default stylings for pages common across the site */
+
+/* Style your body here */
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -34,6 +38,27 @@ h1 {
 
 /* Style your h2 here */
 
+/* Style your skip class here */
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
+
+.skip a {
+    position: relative; /* play with abs*/
+    bottom: 40px;
+}
+
+.skip a:focus {
+    position: relative; /* play with abs*/
+    top: 20px;
+}
+
+/* Style the index html here */
 /* style your dog images here */
 #dogs {
     display: block;
@@ -57,4 +82,13 @@ h1 {
 #dog_stats th {
     border: 2px solid #000000;
     width: 10%;
+}
+
+/* Style the recipes html here */
+
+/* Style the travel html here */
+.travel_figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
 }
