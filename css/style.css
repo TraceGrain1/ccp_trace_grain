@@ -108,7 +108,20 @@ h1 {
 }
 
 /* Style the recipes html here */
+/* ========================================================================== */
+.ingredients_list li {
+    margin-left: 7.5%;
+}
 
+.cooking_steps {
+    margin-left: 7.5%;
+}
+
+.recipes_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* ========================================================================== */
 /* Style the travel html here */
